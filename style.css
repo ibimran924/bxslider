@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ticker>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.ticker ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+.ticker-box {
+    display: flex;
+    justify-content: space-between;
+}
+.ticker-text {
+    margin-right: 98px;
+}
+
+.ticker-box {
+    width: 1200px;
+    margin: auto;
+}
